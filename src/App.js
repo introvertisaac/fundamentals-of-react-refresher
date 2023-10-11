@@ -24,7 +24,7 @@ function App() {
 
     <>
     
-    <div className="App">
+    {/* <div className="App">
      
      <Job salary={1000} position="senior dev" company="amazon" />
      <Job salary={252362} position=" dev" company="rubytech" />
@@ -34,7 +34,7 @@ function App() {
     </div>
 
   <Conditionals />
-  <Lists />
+  <Lists /> */}
   <States />
     
     </>

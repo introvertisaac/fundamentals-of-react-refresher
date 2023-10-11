@@ -1,25 +1,25 @@
 import React from 'react'
 import { useState } from 'react'
 
-const States = () => {
 
-    const [inputValue, setInputValue] = useState("");
+function States () {
+    const [count, setCount] = useState(0);
 
-    const handleChange= (e) => {
+    return(
+     <div>
+            <button onClick={()=> {
+                setCount(count + 1);
+            }}>increase</button>
+            <button onClick={()=> {
+                setCount(count - 1);
+            }}>decrease</button>
+            <button onClick={()=> {
+                setCount(0);
+            }}>set to zero</button>
 
-        setInputValue(e.target.value);
-
-
-    }
-
-  return (
-
-    <div>
-        <input type='text' onChange={handleChange}/>   
-        {inputValue} 
-    
-    </div>
-  )
+            {count}
+     </div>
+    )
 }
  
 export default States
