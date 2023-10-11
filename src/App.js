@@ -1,5 +1,6 @@
 
 import './App.css';
+import Conditionals from './conditionals';
 
 
  
@@ -18,6 +19,9 @@ const Job = (props) => {
 
 function App() {
   return (
+
+    <>
+    
     <div className="App">
      
      <Job salary={1000} position="senior dev" company="amazon" />
@@ -26,6 +30,11 @@ function App() {
      <Job />
   
     </div>
+
+  <Conditionals />
+    
+    </>
+   
 
 
   );
