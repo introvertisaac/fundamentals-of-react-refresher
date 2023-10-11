@@ -10,6 +10,12 @@ else{
     console.log("youa rent that old");
 };
 
+// or 
+
+age>=18 ? console.log("jbjkdabga") : console.log("djghsdghdjs");
+
+
+
 const Conditionals = () => {
   return (
     <div>

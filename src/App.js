@@ -1,6 +1,8 @@
 
 import './App.css';
+import Lists from './Lists';
 import Conditionals from './conditionals';
+import States from './states';
 
 
  
@@ -32,6 +34,8 @@ function App() {
     </div>
 
   <Conditionals />
+  <Lists />
+  <States />
     
     </>
    
